@@ -4,17 +4,179 @@ html {
     font-size: 62.5%;
 }
 
-img {
-    width: 100%;
+* {
+    box-sizing: border-box;
 }
 
 body {
-    font-family: 'Crimson Text',
-        serif;
-    font-size: 2rem;
-    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color:#2C2929;
+    font-family: 'Poppins',
+    sans-serif;
+    font-size: 1.2rem;
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
-/* HEADER */
+.full-height-grow {
+    display: flex;
+    flex-direction: column;
+}
 
-header {}
+.brand-logo {
+    display: flex;
+    align-items: center;
+    font-size: 1.25rem;   
+}
+
+.main-nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-nav a {
+    color: inherit;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+.main-nav a:hover, .footer-nav a:hover {
+    color: coral;
+}
+
+.main-header {
+    display: flex;
+   justify-content: space-between;
+    align-items: center;
+    height: 140px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 20rem;
+    padding: 0 40px;
+    flex-grow: 1;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 5rem;
+    margin-bottom: 1rem;
+    margin-top: 0;
+}
+
+.subtitle {
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    color: #fff;
+    background-color: #B899B5;
+    padding: .75rem 1.5rem;
+    border-radius: 15rem;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+/* Hero */
+.home-main-section {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    flex-grow: 1;
+    position: relative;
+}
+
+.home-main-section .call-to-action {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+    align-self: center;
+}
+
+@media screen and (max-width: 900px) {
+    .home-main-section {
+        justify-content: center;
+    }
+}
+
+
+.circular-text {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    bottom: 6%;
+    animation: circularText 10s linear infinite;
+}
+
+@keyframes circularText {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+/* Footer */
+
+.main-footer .container {
+    display: flex;
+    justify-content: center;
+}
+
+.main-footer {
+    background-color: #202027;
+    height: 40px;
+}
+
+.footer-nav {
+    display: flex;
+    align-items: center;
+    margin-top: 1.2rem;
+}
+
+.footer-nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/* About me */
+
+.about-card-section {
+    display: flex;
+    border-radius: 7px;
+    box-shadow: 0 0 20px 10px #db82cf;
+    overflow: hidden;
+    background-color: #fff;
+    color: black;
+    font-weight: 500;
+    font-size: 1.5rem;
+    padding: 2rem 3rem;
+    margin: 25em 3rem 55rem 3rem;
+}
+
+.about-card-section h1, h2, h3 {
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.about-card-section h3 {
+    font-size: 1.5rem;
+}
+
+
+@media screen and (max-width: 825px) {
+    .about-card-section {
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+}
