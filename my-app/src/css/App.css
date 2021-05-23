@@ -206,7 +206,7 @@ body {
     color: black;
     font-size: 1.5rem;
     padding: 2rem 3rem;
-    margin: 2rem 8rem 2rem 8 rem;
+    margin: -1rem 8rem 4rem 8rem;
 }
 
 .about-card-section h1, h2 {
@@ -250,6 +250,7 @@ body {
     color: #000;
     padding: 1rem;
     position: relative;
+   
 }
 
 .skills-header:after {
@@ -261,4 +262,118 @@ body {
     height: 4px;
     width: 100;
     background-color: #2ecc71;
+     border-radius: 2px;
+}
+
+.skills-container {
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+justify-content: center;
+align-items: center;
+text-align: center;
+grid-gap: 1rem;
+padding: 1rem 1rem;
+font-size: 1.2rem;
+}
+
+.skills-box {
+    padding: 1rem;
+    color: #2C2929;
+    cursor: pointer;
+}
+
+.skills-box:hover>.skill-title:after,
+.skills-box:hover>.skill-title:before {
+    width: 35px;
+
+}
+
+.skills-box:hover .skills-image{
+   transform: translateY(-10px);
+}
+
+.skills-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    position: relative;
+}
+
+
+
+.skills-title h3 {
+    color: #2ecc71;
+    margin-top: 0.5rem
+}
+
+.skills-title:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    width: 0;
+    height: 4px;
+    border-radius: 2px 0 0 2px;
+    background-color: #a452ca;
+    transition: .5s
+}
+
+.skills-title:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    width: 0;
+    height: 4px;
+    border-radius: 0 2px 2px 0;
+    background-color: #a452ca;
+    transition: .5s
+}
+
+
+
+.skills-image:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 90px;
+    background-color: rgba(214, 57, 57, 0.5);
+    border-radius: 45px 0 0 45px ;
+}
+
+.skills-image {
+width: 90px;
+height: 90px;
+position: relative;
+border-radius: 45px;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: .5s;
+}
+
+.skills-icon {
+    width: 50px;
+    z-index: 2;
+
+}
+
+@media screen and (max-width:990px){
+   .container {
+       grid-template-columns: repeat(2, 1fr);
+       padding: 2rem 50px;
+
+   } 
+}
+
+@media screen and (max-width:650px) {
+    .container {
+        grid-template-columns: 1fr;
+        padding: 2rem 50px;
+
+    }
 }
