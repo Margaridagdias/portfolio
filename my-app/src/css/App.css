@@ -6,11 +6,11 @@ html {
 
 * {
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 body {
-    padding: 0;
-    margin: 0;
     background-color:white;
     font-family: 'Montserrat',
     sans-serif;
@@ -225,7 +225,7 @@ body {
 }
 
 .about-card-section h2 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-family: 'Cutive Mono';
     padding-top: 5rem;
  
@@ -258,23 +258,24 @@ body {
     position: absolute;
     bottom: 0;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-90%);
     height: 4px;
-    width: 100;
-    background-color: #2ecc71;
-     border-radius: 2px;
+    width: 100px;
+    background-color: #3f00b4;
+    border-radius: 2px;
 }
 
 .skills-container {
 display: grid;
-grid-template-columns: repeat(4, 1fr);
+grid-template-columns: repeat(3, 1fr);
 justify-content: center;
 align-items: center;
 text-align: center;
 grid-gap: 1rem;
-padding: 1rem 1rem;
+padding: 1rem 80px;
 font-size: 1.2rem;
 }
+
 
 .skills-box {
     padding: 1rem;
@@ -282,8 +283,8 @@ font-size: 1.2rem;
     cursor: pointer;
 }
 
-.skills-box:hover>.skill-title:after,
-.skills-box:hover>.skill-title:before {
+.skills-box:hover>.skills-title:after,
+.skills-box:hover>.skills-title:before {
     width: 35px;
 
 }
@@ -304,7 +305,7 @@ font-size: 1.2rem;
 
 
 .skills-title h3 {
-    color: #2ecc71;
+    color: #000;
     margin-top: 0.5rem
 }
 
@@ -313,10 +314,10 @@ font-size: 1.2rem;
     position: absolute;
     bottom: 0;
     right: 50%;
-    width: 0;
+    width: 35px;
     height: 4px;
     border-radius: 2px 0 0 2px;
-    background-color: #a452ca;
+    background-color: #ff1e1e;
     transition: .5s
 }
 
@@ -324,11 +325,11 @@ font-size: 1.2rem;
     content: '';
     position: absolute;
     bottom: 0;
-    right: 50%;
-    width: 0;
+    left: 50%;
+    width: 35px;
     height: 4px;
     border-radius: 0 2px 2px 0;
-    background-color: #a452ca;
+    background-color: #a80505;
     transition: .5s
 }
 
@@ -340,27 +341,28 @@ font-size: 1.2rem;
     top: 0;
     left: 0;
     width: 50%;
-    height: 90px;
-    background-color: rgba(214, 57, 57, 0.5);
+    height: 60px;
+    background-color: rgba(100, 100, 100, 0.5);
     border-radius: 45px 0 0 45px ;
 }
 
 .skills-image {
-width: 90px;
-height: 90px;
+width: 60px;
+height: 60px;
 position: relative;
 border-radius: 45px;
 display: flex;
 justify-content: center;
 align-items: center;
 transition: .5s;
+background-color: cadetblue;
 }
 
 .skills-icon {
     width: 50px;
     z-index: 2;
-
 }
+
 
 @media screen and (max-width:990px){
    .container {

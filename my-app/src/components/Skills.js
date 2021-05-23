@@ -190,22 +190,10 @@ const Skills = () => {
                 <h3>Photoshop</h3>
               </div>
 
-              <div className="skills-box">
-                <div className="skills-title">
-                  <div className="skills-image">
-                    <img
-                      src="images/ga.png"
-                      alt="javascript"
-                      className="skills-icon"
-                    />
-                  </div>
-                  <h3>Google Analytics</h3>
-                </div>
-              </div>
             </div>
           </div>
         </div>
-      </div>
+     </div>
     );
 }
 
