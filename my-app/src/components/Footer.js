@@ -6,8 +6,8 @@ import "../css/normalize.css";
 const Footer = () => {
     
         return (
-            <footer class="main-footer">
-              <nav class="footer-nav">
+            <footer className="main-footer">
+              <nav className="footer-nav">
                 <span>
                   &#169 2021 Created by{" "}
                   <a href="https://www.linkedin.com/in/margaridagdias/">

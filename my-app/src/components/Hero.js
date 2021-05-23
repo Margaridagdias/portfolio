@@ -6,11 +6,11 @@ const Hero = () => {
   return (
     <div>
       <div>
-        <header class="main-header">
-          <a href="/" class="brand-logo">
+        <header className="main-header">
+          <a href="/" className="brand-logo">
             <img src="/images/grayM.png" alt="/" width="40px" height="40px" />
           </a>
-          <nav class="main-nav">
+          <nav className="main-nav">
             <ul>
               <li>
                 <a href="about.html">About me</a>
@@ -28,14 +28,14 @@ const Hero = () => {
           </nav>
         </header>
 
-        <section class="home-main-section">
-          <div class="call-to-action">
-            <h1 class="title">Margarida Dias</h1>
-            <span class="subtitle">Front end Developer</span>
-            {/* <a href="about.html" class="hero-btn">Get to know me</a> */}
+        <section className="home-main-section">
+          <div className="call-to-action">
+            <h1 className="title">Margarida Dias</h1>
+            <span className="subtitle">Front end Developer</span>
+            {/* <a href="about.html" className="hero-btn">Get to know me</a> */}
           </div>
 
-          <div class="circular-text">
+          <div className="circular-text">
             <img
               src="/images/scrolldown.png"
               alt=""
