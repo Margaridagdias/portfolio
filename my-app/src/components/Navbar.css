@@ -21,6 +21,7 @@
 
 .navbar-toggle .menu-bars {
     margin-top: 2rem;
+    margin-left: 20rem;
 }
 
 .nav-menu {
@@ -30,8 +31,8 @@
     display: flex;
     justify-content: center;
     position: fixed;
-    top: 11.3vh;
-    /* left: -100% */
+    top: 11vh;
+    left: -100%;
     transition: 850ms;
 }
 
