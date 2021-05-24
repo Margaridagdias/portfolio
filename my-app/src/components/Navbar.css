@@ -1,7 +1,7 @@
 .navbar {
     display: flex;
     height: 80px;
-    background-color: #2C2929;
+    background-color: #252424;
     justify-content: space-between;
     align-items: center;
 }
@@ -10,7 +10,7 @@
     display: flex;
     align-items: center;
     font-size: 1rem;
-    padding-left: 4rem;
+    padding-left: 6rem;
 }
 
 .menu-bars {
@@ -19,21 +19,31 @@
     background: none;
 }
 
+.navbar .menu-bars {
+    margin-right: 3rem;
+}
+
 .navbar-toggle .menu-bars {
     margin-top: 2rem;
-    margin-left: 20rem;
+    margin-left: 21.7rem;
+    background-size: 100%;
+}
+
+.navbar-toggle .menu-bars:hover {
+   background-size: 150%;
 }
 
 .nav-menu {
     background-color: #3b3b3b;
-    width: 250px;
+    width: 280px;
     height: 100vh;
     display: flex;
     justify-content: center;
     position: fixed;
     top: 11vh;
-    left: -100%;
+    right: -100%;
     transition: 850ms;
+    margin-left: 126rem;
 }
 
 
