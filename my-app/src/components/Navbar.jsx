@@ -38,7 +38,7 @@ const Navbar = () => {
                   <ul className="nav-menu-items" onClick={showSidebar}>
                     <li className="navbar-toggle">
                       <Link to="#" className="menu-bars">
-                        <IconContext.Provider value={{ color: "#1f1c1c" }}>
+                        <IconContext.Provider value={{ color: "#000" }}>
                           <AiIcons.AiOutlineClose />
                         </IconContext.Provider>
                       </Link>
