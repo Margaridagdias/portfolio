@@ -43,14 +43,14 @@ body {
 
 /* NAVBAR */
 
-.header {
+/* .header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     height: 10vh;
     background-color: blueviolet;
-    /* background-color: #2C2929; */
+    /* background-color: #2C2929; 
     padding: 0px 10px;
 }
 
@@ -109,7 +109,7 @@ padding-left: 4rem;
         color: #000;
     }
 }
-
+ */
 
 
 
