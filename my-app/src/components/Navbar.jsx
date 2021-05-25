@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import React, { useState } from "react";
 import SidebarData from "./SidebarData";
-import Dropdown from "./Dropdown";
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -46,7 +45,6 @@ const Navbar = () => {
             <Link to="/cv" className="nav-links" onClick={closeMobileMenu}>
               Curriculum
             </Link>
-            {dropdown && <Dropdown />}
           </li>
 
         </ul>
