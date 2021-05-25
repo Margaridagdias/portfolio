@@ -1,40 +1,58 @@
-import {Link} from 'react-router-dom';
-import React, {useState} from 'react';
-import * as FaIcons from 'react-icons/fa';
-import * as AiIcons from 'react-icons/ai';
-import SidebarData from './SidebarData';
-import './Navbar.css';
-import {IconContext} from 'react-icons';
-
+import { Link } from "react-router-dom";
+import React, { useState } from "react";
+import SidebarData from "./SidebarData";
+import Dropdown from "./Dropdown";
+import "./Navbar.css";
 
 const Navbar = () => {
-    const [click, setClick] = useState(false)
+  const [click, setClick] = useState(false);
+  const [dropdown, setDropdown] = useState(false);
 
-    const handleClick = () => setClick(!click)
+  const handleClick = () => setClick(!click);
 
+  const closeMobileMenu = () => setClick(false);
 
-        return (
-          <>
-           
-              <div className="navbar">
-                {/* Header Logo */}
-                <Link to="/" className="nav-logo">
-                  <img
-                    src="/images/grayM.png"
-                    alt="/"
-                    width="40px"
-                    height="40px"
-                  />
-                </Link>
-                <div className="menu-icon" onClick={handleClick}>
-                  <i className={click ? 'fas fa-times' : ' fas fa-bars'}>
-                    
-                  </i>
-                </div>
-          </div>
-          </>
-        );
-    }
+  return (
+    <>
+      <nav className="navbar">
+        {/* Header Logo */}
+        <Link to="/" className="nav-logo">
+          <img src="/images/grayM.png" alt="/" width="40px" height="40px" />
+        </Link>
 
+        <div className="menu-icon" onClick={handleClick}>
+          <i className={click ? "fas fa-times" : " fas fa-bars"} />
+        </div>
+        <ul className={click ? "nav-menu active" : "nav-menu"}>
+          <li className="nav-item">
+            <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+              Home
+            </Link>
+          </li>
+
+          <li className="nav-item">
+            <Link to="/about" className="nav-links" onClick={closeMobileMenu}>
+              About
+            </Link>
+          </li>
+
+          <li className="nav-item">
+            <Link to="/skills" className="nav-links" onClick={closeMobileMenu}>
+              Skills
+            </Link>
+          </li>
+
+          <li className="nav-item">
+            <Link to="/cv" className="nav-links" onClick={closeMobileMenu}>
+              Curriculum
+            </Link>
+            {dropdown && <Dropdown />}
+          </li>
+
+        </ul>
+      </nav>
+    </>
+  );
+};
 
 export default Navbar;
