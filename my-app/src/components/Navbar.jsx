@@ -8,55 +8,30 @@ import {IconContext} from 'react-icons';
 
 
 const Navbar = () => {
-    const [sidebar, setSidebar] = useState(false)
+    const [click, setClick] = useState(false)
 
-    const showSidebar =() => setSidebar(!sidebar)
+    const handleClick = () => setClick(!click)
 
 
         return (
           <>
-            <IconContext.Provider value={{ color: "#fff" }}>
+           
               <div className="navbar">
                 {/* Header Logo */}
-                <a href="/" className="nav-logo">
+                <Link to="/" className="nav-logo">
                   <img
                     src="/images/grayM.png"
                     alt="/"
                     width="40px"
                     height="40px"
                   />
-                </a>
-
-                {/* Header Button */}
-                 <Link to="#" className="menu-bars">
-                  <FaIcons.FaBars onClick={showSidebar} />
                 </Link>
-
-                {/* Header Nav Menu */}
-
-                <nav className={sidebar ? "nav-menu active" : "nav-menu"}>
-                  <ul className="nav-menu-items" onClick={showSidebar}>
-                    <li className="navbar-toggle">
-                      <Link to="#" className="menu-bars">
-                        <IconContext.Provider value={{ color: "#000" }}>
-                          <AiIcons.AiOutlineClose />
-                        </IconContext.Provider>
-                      </Link>
-                    </li>
-                    {SidebarData.map((item, index) => {
-                      return (
-                        <li key={index} className={item.className}>
-                          <Link to={item.path}>
-                            {item.icon}
-                            <span>{item.title}</span>
-                          </Link>
-                        </li>
-                      );
-                    })}
-                  </ul>
-                </nav>
-              </div>
-            </IconContext.Provider>
+                <div className="menu-icon" onClick={handleClick}>
+                  <i className={click ? 'fas fa-times' : ' fas fa-bars'}>
+                    
+                  </i>
+                </div>
+          </div>
           </>
         );
     }
