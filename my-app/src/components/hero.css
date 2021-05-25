@@ -1,0 +1,92 @@
+.title {
+    font-weight: 500;
+    font-size: 5rem;
+    margin-bottom: 1rem;
+    margin-top: 0;
+}
+
+.subtitle {
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.hero-btn {
+    color: #fff;
+    background-color: #B899B5;
+    padding: .75rem 1.5rem;
+    border-radius: 15rem;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.home-main-section .call-to-action .hero-btn {
+
+    margin: -18rem;
+    align-self: center;
+}
+
+.hero-main-section {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    position: relative;
+    background-color: #2C2929;
+
+}
+
+.hero-main-section .call-to-action {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 16rem;
+    margin-left: 5rem;
+    align-self: center;
+}
+
+.hero-main-section .call-to-action .title {
+    font-family: 'Abril Fatface',
+        'cursive';
+    font-size: 6.5rem;
+    color: #cbc0d3;
+    margin: 2rem 0 2rem 0;
+}
+
+.hero-main-section .call-to-action .subtitle {
+    position: relative;
+    font-family: 'Josefin Sans',
+        sans-serif;
+    margin-left: 96rem;
+    font-size: 8.5rem;
+    transform-origin: top left;
+    transform: rotate(-90deg) translateX(-100%);
+    bottom: 30.5rem;
+    letter-spacing: 2.3rem;
+    color: #e0afa0;
+    text-shadow: 3px 5px #000;
+    text-align: justify;
+
+
+}
+
+@media screen and (max-width: 900px) {
+    .hero-main-section {
+        justify-content: center;
+    }
+}
+
+
+.circular-text {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    margin-top: 51.5rem;
+
+    animation: circularText 6s linear infinite;
+}
+
+@keyframes circularText {
+    100% {
+        transform: rotate(360deg);
+    }
+}
