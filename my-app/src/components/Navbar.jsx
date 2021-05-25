@@ -28,7 +28,7 @@ const Navbar = () => {
                 </a>
 
                 {/* Header Button */}
-                <Link to="#" className="menu-bars">
+                 <Link to="#" className="menu-bars">
                   <FaIcons.FaBars onClick={showSidebar} />
                 </Link>
 

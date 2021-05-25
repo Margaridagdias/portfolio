@@ -14,8 +14,7 @@ function App() {
     <div>
       <Router>
         <Navbar />
-        <Hero />
-        <Switch>
+          <Switch>
           <Route path="/" exact component={Hero} />
           
           <Route path="/about" component={About} />

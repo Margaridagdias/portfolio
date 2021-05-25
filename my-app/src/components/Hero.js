@@ -1,13 +1,13 @@
-import React, { useState } from "react";
+import React from "react";
 import "../css/App.css";
 import "../css/normalize.css";
+import "../components/hero.css"
 
 const Hero = () => {
   return (
 
 
-    <div className="hero-container">
-
+    <div>
         <section className="hero-main-section">
           <div className="call-to-action">
             <h1 className="title">Margarida Dias</h1>
