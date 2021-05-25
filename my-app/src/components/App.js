@@ -16,7 +16,7 @@ function App() {
         <Navbar />
           <Switch>
           <Route path="/" exact component={Hero} />
-          
+
           <Route path="/about" component={About} />
 
           <Route path="/skills" component={Skills} />
@@ -24,6 +24,8 @@ function App() {
           <Route path="/cv" component={Cv} />
         </Switch>
       </Router>
+      <About />
+      <Skills />
     </div>
   );
 }

@@ -37,13 +37,13 @@
 
 .nav-links {
     color: white;
+    font-size: 1.3rem;
     text-decoration: none;
     padding: 0.5rem 1rem;
 }
 
 .nav-links:hover {
-    background-color: #d66ba0;
-    border-radius: 4px;
+    color: #cbc0d3;
     transition: all 0.2s ease-out;
 }
 

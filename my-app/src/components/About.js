@@ -1,6 +1,7 @@
 import React from "react";
 import "../css/App.css";
 import "../css/normalize.css";
+import "../components/About.css";
 
 const About = () => {
   return (

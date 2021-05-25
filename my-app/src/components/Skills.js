@@ -1,6 +1,7 @@
 import "../css/App.css";
 import "../css/normalize.css";
 import React from 'react'
+import "../components/Skills.css";
 
 const Skills = () => {
     return (
