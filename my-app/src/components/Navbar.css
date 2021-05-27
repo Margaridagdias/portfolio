@@ -11,10 +11,13 @@
 .nav-logo {
     display: flex;
     align-items: center;
-    font-size: 1rem;
     padding-left: 6rem;
 }
 
+.nav-logo > img {
+ width: 55px;
+ height: 55px;
+}
 .fa-firstdraft {
     margin-left: 0.5rem;
     font-size: 1.6rem;
@@ -29,7 +32,6 @@
     width: 70vw;
     justify-content: end;
     margin-right: 2rem;
-  
 }
 
 .nav-item {
@@ -39,7 +41,7 @@
 }
 
 .nav-links {
-    color: white;
+    color: var(--text-color-light);
     font-size: 1.3rem;
     text-decoration: none;
     padding: 0.5rem 1rem;
@@ -52,7 +54,7 @@
 
 .fa-bars {
     color: #fff;
-    margin: 1rem 2rem 0 0;
+    margin: 0 2rem 1rem 0;
 }
 
 
@@ -62,7 +64,6 @@
 
 .menu-icon {
     display: none;
-    
 }
 
 @media screen and (max-width: 960px) {
@@ -114,13 +115,13 @@
         transform: translate(-100%, 60%);
         font-size: 1.8rem;
         cursor: pointer;
-         color: #fff;
+        justify-items: center;
     }
 
     .fa-times {
         color: #fff;
         font-size: 2rem;
-        margin: 1rem 2rem 0 0;
+         margin: 0 2rem 1rem 0;
     }
 
 }

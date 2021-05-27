@@ -1,9 +1,9 @@
+import Navbar from "./Navbar";
 import '.././css/App.css';
 import ".././css/normalize.css";
 import Hero from "./Hero";
 import About from "./About";
 import Skills from "./Skills";
-import Navbar from "./Navbar";
 import Cv from './Cv';
 
 //import Footer from "./Footer";

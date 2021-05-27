@@ -15,7 +15,7 @@ const Navbar = () => {
       <nav className="navbar">
         {/* Header Logo */}
         <Link to="/" className="nav-logo">
-          <img src="/images/grayM.png" alt="/" width="40px" height="40px" />
+          <img src="/images/grayM.png" alt="/"/>
         </Link>
 
         <div className="menu-icon" onClick={handleClick}>
