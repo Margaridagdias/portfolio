@@ -1,7 +1,9 @@
+@import '../css/App.css';
+
 .navbar {
     display: flex;
-    height: 80px;
-    background-color: #2C2929;
+    height: 75px;
+    background-color: var(--first-color);
     justify-content: space-between;
     align-items: center;
 }

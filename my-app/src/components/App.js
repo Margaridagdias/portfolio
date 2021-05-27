@@ -24,8 +24,6 @@ function App() {
           <Route path="/cv" component={Cv} />
         </Switch>
       </Router>
-      <About />
-      <Skills />
     </div>
   );
 }

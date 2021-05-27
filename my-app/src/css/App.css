@@ -1,6 +1,5 @@
 @import "./normalize.css";
 
-
 html {
     font-size: 62.5%;
 }
@@ -11,7 +10,6 @@ html {
     margin: 0px;
     
 }
-
 
 
 body {
@@ -25,17 +23,27 @@ body {
     overflow-x: hidden;
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (max-width: 768px) {
-    
-}
+/* Colors */
+:root {
+--first-color: hsl(250, 4%, 17%);
+--first-color-second: hsl(250, 4%, 17%);
+--first-color-alt: hsl(250, 4%, 17%);
+--first-color-lighter: hsl(250, 4%, 17%);
+--title-color: hsl(250, 4%, 17%);
+--text-color: hsl(250, 4%, 17%);
+--text-color-light: hsl(250, 4%, 17%);
+--input-color: hsl(250, 4%, 17%);
+--body-color: hsl(250, 4%, 17%);
+--container-color: hsl(250, 4%, 17%);
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (max-width: 1200px) {
-    
-}
+/* Fonts and Typography */
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-    
+--body-font:
+
+
+
+
+
+
+
 }

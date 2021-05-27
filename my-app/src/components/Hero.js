@@ -9,11 +9,10 @@ const Hero = () => {
 
     <div>
         <section className="hero-main-section">
-          <div className="call-to-action">
             <h1 className="title">Margarida Dias</h1>
             <span className="subtitle">Front end Developer</span>
             {/* <a href="about.html" className="hero-btn">Get to know me</a> */}
-          </div>
+         
 
           <div className="circular-text">
             <img
@@ -22,7 +21,7 @@ const Hero = () => {
               width="58px"
               height="58px"
             />
-          </div>
+            </div>
         </section>
 
       
