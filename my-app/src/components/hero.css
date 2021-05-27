@@ -9,35 +9,11 @@
      position: relative;
 }
 
-.hero-main-section .title {
-    font-family: 'Abril Fatface',
-        'cursive';
-    color: #cbc0d3;
-    margin: 0 0 2rem 0;
-    font-weight: 500;
-    font-size: 6.5rem;
-    cursor: default;
-}
-
-.hero-main-section .subtitle {
-    position: relative;
-    font-family: 'Josefin Sans',
-        sans-serif;
-   
-    font-size: 4rem;
-    letter-spacing: 2.3rem;
-    color: #e0afa0;
-    text-shadow: 8px 5px #000;
-     cursor: default;
-
-
-}
 
 @media screen and (max-width: 900px) {
-    .hero-main-section {
-        justify-content: center;
+    
     }
-}
+
 
 
 .circular-text {
