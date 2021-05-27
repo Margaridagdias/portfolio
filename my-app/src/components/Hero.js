@@ -29,6 +29,17 @@ const Hero = () => {
                 <i class="fab fa-github-square"></i>
               </a>
             </div>
+            <div className="home__social">
+              <a
+                href="mailto:margaridagdias3@gmail.com"
+                className="home__social-icon"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="far fa-envelope"></i>
+              </a>
+            </div>
+
             <div className="home__img">
               <svg
                 className="home__blob"
@@ -76,8 +87,16 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="circular-text">
-          <img src="/images/scrolldown.png" alt="" width="58px" height="58px" />
+        <div className="go-down-arrow">
+          <i class="fas fa-sort-down"></i>
+          <div className="circular-text">
+            <img
+              src="/images/scrolldown.png"
+              alt=""
+              width="57px"
+              height="57px"
+            />
+          </div>
         </div>
       </section>
 

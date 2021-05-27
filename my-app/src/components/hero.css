@@ -5,13 +5,9 @@
 }
 
 .home__content {
-    grid-template-columns: 0.5fr 3fr;
+    grid-template-columns: .5fr 3fr;
     padding-top: 3.5rem;
     align-items: center;
-}
-
-.home__title, .home__subtitle{
-    color: var(--text-color-light);
 }
 
 .home__social {
@@ -87,12 +83,19 @@
     align-items: center;
 }
 
-/* .circular-text {
+.fa-sort-down {
+    position: relative;
+    z-index: 1;
+    color: var(--third-color);
+     margin-left:49.6%;
+     top: 2.3rem;
+     
+}
+
+.circular-text {
     display: flex;
     position: absolute;
-    align-items: center;
-    margin-top: 51.5rem;
-
+    margin: 0 0 0 48%;
     animation: circularText 6s linear infinite;
 }
 
@@ -100,4 +103,4 @@
     100% {
         transform: rotate(360deg);
     }
-} */
+}
