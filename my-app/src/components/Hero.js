@@ -70,7 +70,7 @@ const Hero = () => {
                 development converge.
               </p>
               <a href="#resume" className="button button--flex">
-                DOWNLOAD MY CV<i class="fas fa-angle-right button__icon"></i>
+                DOWNLOAD CV<i class="fas fa-angle-right button__icon"></i>
               </a>
             </div>
           </div>

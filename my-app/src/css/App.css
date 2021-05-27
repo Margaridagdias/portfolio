@@ -2,20 +2,17 @@
 
 /* Colors */
 :root {
---first-color: hsl(250, 4%, 17%);
---first-color-second: hsl(250, 4%, 17%);
---first-color-alt: hsl(250, 4%, 17%);
---first-color-lighter: hsl(250, 4%, 17%);
---title-color: hsl(250, 4%, 17%);
---text-color: hsl(250, 8%, 45%);
---text-color-light: hsl(0, 0%, 61%);
---text-color-white: hsl(0, 0%, 100%);
---input-color: hsl(250, 70%, 96%);
---body-color: hsl(250, 4%, 17%);
---container-color: hsl(0, 0%, 100%);
---hover-bottons-color: hsl(330, 31%, 49%);
---download-btn-color: hsl(49, 100%, 56%);
---download-btn-hover:hsl(298, 100%, 85%);
+--hue-color:250;
+
+--overall-color:#debce2;
+--body-color: hsl(var(--hue-color), 4%, 17%);
+--first-color: #F9FAFB;
+--second-color:#F9FAFB;
+--third-color:#d4d4d4;
+--third-color-darker:#9e9e9e;
+
+
+--darker-body-color:#242222;
 
 /* Fonts and Typography */
 

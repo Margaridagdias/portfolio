@@ -22,16 +22,16 @@
 
 .home__social-icon {
     font-size: 1.25rem;
-    color: var(--text-color);
+    color: var(--overall-color);
 }
 
 .home__social-icon:hover {
-    color: var(--hover-bottons-color);
+    color: var(--third-color-darker);
 } 
 
 .home__blob {
     width: 200px;
-    fill: var(--hover-bottons-color);
+    fill: var(--overall-color);
 }
 
 .home__blob-img {
@@ -44,31 +44,36 @@
 
 .home__title {
     font-size: var(--big-font-size);
+    color: var(--first-color);
 }
 
 .home__subtitle {
         font-size: var(--h3-font-size);
-        color: var(--text-color-light);
+        color: var(--third-color);
         font-weight: var(--font-medium);
         margin-bottom: var(--mb-0-75);
 }
 
 .home__description {
     margin-bottom: var(--mb-2);
+    color: var(--third-color-darker);
 }
 
 .button {
     display: inline-block;
-    background-color: var(--download-btn-color);
+    background-color: var(--overall-color);
     color: #000;
-    padding: 1rem;
+    padding: .5rem;
     border-radius: .5rem;
     font-weight: var(--font-medium);
-    font-size: 1rem;
+    font-size: .8rem;
+    
 }
 
 .button:hover {
-    color: var(--hover-bottons-color);
+    background-color: var(--darker-body-color);
+    color: var(--first-color);
+    transform: translateY(0.35rem)
 }
 
 .button__icon {
@@ -77,6 +82,10 @@
     transition: .3s;
 }
 
+.button--flex {
+    display: inline-flex;
+    align-items: center;
+}
 
 /* .circular-text {
     display: flex;

@@ -3,7 +3,7 @@
 .navbar {
     display: flex;
     height: 75px;
-    background-color: var(--first-color);
+    background-color: var(--body-color);
     justify-content: space-between;
     align-items: center;
 }
@@ -41,7 +41,7 @@
 }
 
 .nav-links {
-    color: var(--text-color-light);
+    color: var(--second-color);
     font-size: var(--h3-font-size);
     text-decoration: none;
     padding: 0.5rem 1rem;
@@ -53,7 +53,7 @@
 }
 
 .fa-bars {
-    color: var(--text-color-white);
+    color: var(--second-color);
     margin: 0 2rem 1rem 0;
 }
 
@@ -81,7 +81,7 @@
     }
 
     .nav-menu.active {
-        background: #242222;
+        background: var(--darker-body-color);
         left: 0;
         opacity: 1;
         transition: all 0.5s ease;
@@ -96,7 +96,8 @@
     }
 
     .nav-links:hover {
-        background-color: var(--hover-bottons-color);
+        background-color: var(--overall-color);
+        color: #000;
         border-radius: 0;
     }
 
@@ -119,7 +120,7 @@
     }
 
     .fa-times {
-        color: var(--text-color-white);
+        color: var(--second-color);
         font-size: 2rem;
          margin: 0 2rem 1rem 0;
     }
