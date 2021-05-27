@@ -11,13 +11,14 @@
 .nav-logo {
     display: flex;
     align-items: center;
-    padding-left: 6rem;
+    padding: .5rem 0 0 5rem;
 }
 
 .nav-logo > img {
  width: 55px;
  height: 55px;
 }
+
 .fa-firstdraft {
     margin-left: 0.5rem;
     font-size: 1.6rem;
@@ -27,7 +28,6 @@
     display: grid;
     grid-template-columns: repeat(5, auto);
     grid-gap: 10px;
-    list-style: none;
     text-align: center;
     width: 70vw;
     justify-content: end;
@@ -42,7 +42,7 @@
 
 .nav-links {
     color: var(--text-color-light);
-    font-size: 1.3rem;
+    font-size: var(--h3-font-size);
     text-decoration: none;
     padding: 0.5rem 1rem;
 }
@@ -53,7 +53,7 @@
 }
 
 .fa-bars {
-    color: #fff;
+    color: var(--text-color-white);
     margin: 0 2rem 1rem 0;
 }
 
@@ -96,7 +96,7 @@
     }
 
     .nav-links:hover {
-        background-color: #d66ba0;
+        background-color: var(--hover-bottons-color);
         border-radius: 0;
     }
 
@@ -119,7 +119,7 @@
     }
 
     .fa-times {
-        color: #fff;
+        color: var(--text-color-white);
         font-size: 2rem;
          margin: 0 2rem 1rem 0;
     }

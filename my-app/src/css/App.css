@@ -9,9 +9,11 @@
 --title-color: hsl(250, 4%, 17%);
 --text-color: hsl(250, 8%, 45%);
 --text-color-light: hsl(0, 0%, 95%);
+--text-color-white: hsl(0, 0%, 100%);
 --input-color: hsl(250, 70%, 96%);
 --body-color: hsl(250, 4%, 17%);
---container-color: #FFF;
+--container-color: hsl(0, 0%, 100%);
+--hover-bottons-color: hsl(330, 57%, 63%);
 
 /* Fonts and Typography */
 
@@ -151,12 +153,9 @@ img {
 
     /* Change background header */
 
-
-    /*==================== HOME ====================*/
-
-
     /*==================== BUTTONS ====================*/
-
+    
+    
 
     /*==================== ABOUT ====================*/
 
