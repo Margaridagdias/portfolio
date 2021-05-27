@@ -33,7 +33,7 @@
     --font-medium: 500;
     --font-semi-bold: 600;
 
-    /*========== Margenes Bottom ==========*/
+    /*========== Margin Bottom ==========*/
     /* .25rem = 4px, .5rem = 8px, .75rem = 12px ... */
     --mb-0-25: 0.25rem;
     --mb-0-5: 0.5rem;
@@ -90,12 +90,56 @@ body {
     color: var(--text-color);
 }
 
+h1, h2, h3, h4 {
+    color: var(--title-color);
+    font-weight: var(--font-semi-bold);
+}
+
+
+ul {
+    list-style: none;
+}
+
+a { 
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
     /*==================== REUSABLE CSS CLASSES ====================*/
 
+    .section {
+        padding: 2rem 0 4rem;
+    }
+
+    .section__title {
+        font-size: var(--h1-font-size)
+    }
+
+    .section__subtitle {
+        display: block;
+        font-size: var(--small-font-size);
+        margin-bottom: var(--mb-3);
+    }
+
+.section__title, .section__subtitle {
+    text-align: center;
+}
 
     /*==================== LAYOUT ====================*/
 
+.container {
+    max-width: 768px;
+    margin-left: var(--mb-1-5);
+     margin-right:var(--mb-1-5);
+}
 
+.grid {
+    display: grid;
+    gap: 1.5rem;
+}
     /*==================== NAV ====================*/
 
 

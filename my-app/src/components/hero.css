@@ -1,26 +1,10 @@
-
-/* .hero-btn {
-    color: #fff;
-    background-color: #b899b5;
-    padding: .75rem 1.5rem;
-    border-radius: 15rem;
-    text-decoration: none;
-    font-size: 1.1rem;
-}
-
-.home-main-section .hero-btn {
-
-    margin: -18rem;
-    align-self: center;
-} */
-
+@import '../css/App.css';
 
 .hero-main-section {
     display: flex;
     flex-direction: column;
     align-items: center;
    justify-content: center;
-    background-color: #2C2929;
     height: 90vh;
      position: relative;
 }

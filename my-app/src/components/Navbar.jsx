@@ -5,7 +5,6 @@ import "./Navbar.css";
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
-  const [dropdown, setDropdown] = useState(false);
 
   const handleClick = () => setClick(!click);
 
