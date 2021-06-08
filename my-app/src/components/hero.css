@@ -11,14 +11,14 @@
 }
 
 .home__social {
-   display: grid;
-   grid-template-columns: max-content;
-   row-gap: 1rem;
+    display: inline-block;
+ 
 }
 
 .home__social-icon {
     font-size: 1.25rem;
     color: var(--overall-color);
+    padding-right: .6rem;
 }
 
 .home__social-icon:hover {
@@ -63,13 +63,12 @@
     border-radius: .5rem;
     font-weight: var(--font-medium);
     font-size: .8rem;
-    
+    margin-top: .7rem;
 }
 
 .button:hover {
     background-color: var(--darker-body-color);
     color: var(--first-color);
-    transform: translateY(0.35rem)
 }
 
 .button__icon {
@@ -79,8 +78,8 @@
 }
 
 .button--flex {
-    display: inline-flex;
     align-items: center;
+    padding-top: .8rem;
 }
 
 .fa-sort-down {

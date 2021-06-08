@@ -9,37 +9,6 @@ const Hero = () => {
       <section className="home-section" id="home">
         <div className="home__container container grid">
           <div className="home__content grid">
-            <div className="home__social">
-              <a
-                href="https://www.linkedin.com/in/margaridagdias/"
-                className="home__social-icon"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i class="fab fa-linkedin"></i>
-              </a>
-            </div>
-            <div className="home__social">
-              <a
-                href="https://github.com/Margaridagdias"
-                className="home__social-icon"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i class="fab fa-github-square"></i>
-              </a>
-            </div>
-            <div className="home__social">
-              <a
-                href="mailto:margaridagdias3@gmail.com"
-                className="home__social-icon"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i class="far fa-envelope"></i>
-              </a>
-            </div>
-
             <div className="home__img">
               <svg
                 className="home__blob"
@@ -80,9 +49,41 @@ const Hero = () => {
                 is where my passion for interface design, user experience and
                 development converge.
               </p>
-              <a href="#resume" className="button button--flex">
-                DOWNLOAD CV<i class="fas fa-angle-right button__icon"></i>
-              </a>
+              <div className="home__social">
+                <a
+                  href="https://www.linkedin.com/in/margaridagdias/"
+                  className="home__social-icon"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-linkedin"></i>
+                </a>
+              </div>
+              <div className="home__social">
+                <a
+                  href="https://github.com/Margaridagdias"
+                  className="home__social-icon"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-github-square"></i>
+                </a>
+              </div>
+              <div className="home__social">
+                <a
+                  href="mailto:margaridagdias3@gmail.com"
+                  className="home__social-icon"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="far fa-envelope"></i>
+                </a>
+              </div>
+              <div>
+                <a href="#resume" className="button button--flex">
+                  DOWNLOAD CV
+                </a>
+              </div>
             </div>
           </div>
         </div>
