@@ -88,17 +88,12 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="go-down-arrow">
-          <i class="fas fa-sort-down"></i>
-          <div className="circular-text">
-            <img
-              src="/images/scrolldown.png"
-              alt=""
-              width="57px"
-              height="57px"
-            />
+          <div className="scrolldown">
+            <span></span>
+            <span></span>
+            <span></span>
           </div>
-        </div>
+          
       </section>
 
       <script src="https://unpkg.com/aos@next/dist/aos.js"></script>

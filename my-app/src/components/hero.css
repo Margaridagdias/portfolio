@@ -82,24 +82,12 @@
     padding-top: .8rem;
 }
 
-.fa-sort-down {
-    position: relative;
-    z-index: 1;
-    color: var(--third-color);
-     margin-left:49.6%;
-     top: 2.3rem;
-     
-}
 
-.circular-text {
-    display: flex;
+.scrolldown {
     position: absolute;
-    margin: 0 0 0 48%;
-    animation: circularText 6s linear infinite;
-}
-
-@keyframes circularText {
-    100% {
-        transform: rotate(360deg);
-    }
+    bottom: 20px;
+    left: 50%;
+    width: 40px;
+    height: 40px;
+    background: var(--second-color);
 }
