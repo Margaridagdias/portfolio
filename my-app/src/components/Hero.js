@@ -1,6 +1,4 @@
 import React from "react";
-import "../css/App.css";
-import "../css/normalize.css";
 import "../components/hero.css";
 
 const Hero = () => {
@@ -79,11 +77,7 @@ const Hero = () => {
                   <i class="far fa-envelope"></i>
                 </a>
               </div>
-              <div>
-                <a href="#resume" className="button button--flex">
-                  DOWNLOAD CV
-                </a>
-              </div>
+              
             </div>
           </div>
         </div>
