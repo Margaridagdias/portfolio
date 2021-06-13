@@ -5,7 +5,7 @@ import React, { useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
-import "swiper/swiper.min.css";
+import "../css/swiper-bundle.min.css";
 import "swiper/components/navigation/navigation.min.css";
 import "swiper/components/pagination/pagination.min.css";
 
@@ -19,9 +19,8 @@ import SwiperCore, {
 
 
 const Projects = () => {
-    
-// install Swiper modules
-SwiperCore.use([Navigation,Pagination,Mousewheel,Keyboard]);
+  // install Swiper modules
+  SwiperCore.use([Navigation, Pagination, Mousewheel, Keyboard]);
 
   return (
     <section className="projects section" id="projects">
@@ -47,17 +46,16 @@ SwiperCore.use([Navigation,Pagination,Mousewheel,Keyboard]);
                   className="projects__img"
                 />
                 <div className="projects__data">
-                  <h3 className="projects__title">
-                    <p className="portfolio__description">
-                      Cloud hosting website using HTML5 & CSS3!
-                    </p>
-                    <a
-                      href="https://mdmoshify.netlify.app"
-                      className="button button-flex button--small project__button"
-                    >
-                      Demo<i class="fas fa-arrow-right button-icon-1"></i>
-                    </a>
-                  </h3>
+                  <h3 className="projects__title">Moshify</h3>
+                  <p className="projects__description">
+                    Cloud hosting website using HTML5 & CSS3!
+                  </p>
+                  <a
+                    href="https://mdmoshify.netlify.app"
+                    className="button button-flex button--small project__button"
+                  >
+                    Demo<i class="fas fa-arrow-right button-icon-1"></i>
+                  </a>
                 </div>
               </div>
             </SwiperSlide>
@@ -71,17 +69,16 @@ SwiperCore.use([Navigation,Pagination,Mousewheel,Keyboard]);
                   className="projects__img"
                 />
                 <div className="projects__data">
-                  <h3 className="projects__title">
-                    <p className="portfolio__description">
-                      Fetching Tours data in React!
-                    </p>
-                    <a
-                      href="https://mdmoshify.netlify.app"
-                      className="button button-flex button--small project__button"
-                    >
-                      Demo<i class="fas fa-arrow-right button-icon-1"></i>
-                    </a>
-                  </h3>
+                  <h3 className="projects__title">Fecthing Tours</h3>
+                  <p className="projects__description">
+                    Fetching data in React!
+                  </p>
+                  <a
+                    href="https://mdmoshify.netlify.app"
+                    className="button button-flex button--small project__button"
+                  >
+                    Demo<i class="fas fa-arrow-right button-icon-1"></i>
+                  </a>
                 </div>
               </div>
             </SwiperSlide>
@@ -95,21 +92,21 @@ SwiperCore.use([Navigation,Pagination,Mousewheel,Keyboard]);
                   className="projects__img"
                 />
                 <div className="projects__data">
-                  <h3 className="projects__title">
-                    <p className="portfolio__description">
-                      Recreation of{" "}
-                      <a className="a-links" href="https://uidesigndaily.com">
-                        uidesigndaily{" "}
-                      </a>
-                      <br /> Editing data with React!
-                    </p>
-                    <a
-                      href="https://iconicbirthdays.netlify.app"
-                      className="button button-flex button--small project__button"
-                    >
-                      Demo<i class="fas fa-arrow-right button-icon-1"></i>
+                  <h3 className="projects__title">Iconic Birthdays</h3>
+                  <p className="projects__description">
+                    Editing data with React!
+                    <br />
+                    Recreation of
+                    <a className="a-links" href="https://uidesigndaily.com">
+                      uidesigndaily
                     </a>
-                  </h3>
+                  </p>
+                  <a
+                    href="https://iconicbirthdays.netlify.app"
+                    className="button button-flex button--small project__button"
+                  >
+                    Demo<i class="fas fa-arrow-right button-icon-1"></i>
+                  </a>
                 </div>
               </div>
             </SwiperSlide>
@@ -123,17 +120,16 @@ SwiperCore.use([Navigation,Pagination,Mousewheel,Keyboard]);
                   className="projects__img"
                 />
                 <div className="projects__data">
-                  <h3 className="projects__title">
-                    <p className="portfolio__description">
-                      Catch the biggest number of black squares in 5 seconds!
-                    </p>
-                    <a
-                      href="https://five-second-rule.herokuapp.com/"
-                      className="button button-flex button--small project__button"
-                    >
-                      Demo<i class="fas fa-arrow-right button-icon-1"></i>
-                    </a>
-                  </h3>
+                  <h3 className="projects__title">5 Second Rule</h3>
+                  <p className="projects__description">
+                    Catch the biggest number of black squares in 5 seconds!
+                  </p>
+                  <a
+                    href="https://five-second-rule.herokuapp.com/"
+                    className="button button-flex button--small project__button"
+                  >
+                    Demo<i class="fas fa-arrow-right button-icon-1"></i>
+                  </a>
                 </div>
               </div>
             </SwiperSlide>
