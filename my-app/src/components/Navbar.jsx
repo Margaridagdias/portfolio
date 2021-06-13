@@ -41,11 +41,11 @@ const Navbar = () => {
 
           <li className="nav-item">
             <a
-              href="#background"
+              href="#projects"
               className="nav-links"
               onClick={closeMobileMenu}
             >
-              Background
+              Projects
             </a>
           </li>
         </ul>

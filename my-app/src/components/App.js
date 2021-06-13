@@ -5,6 +5,7 @@ import Hero from "./Hero";
 import About from "./About";
 import Skills from "./Skills";
 import Background from './Background';
+import Projects from './Projects';
 
 
 function App() {
@@ -14,7 +15,7 @@ function App() {
         <Hero />
         <About />
 
-        <Background />
+        <Projects />
     </div>
   );
 }

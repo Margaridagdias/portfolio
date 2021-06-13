@@ -1,0 +1,10 @@
+@import '../css/App.css';
+@import '../css/normalize.css';
+
+.section__title {
+    color: var(--first-color);
+}
+
+.section__subtitle {
+    color: var(--third-color);
+}
