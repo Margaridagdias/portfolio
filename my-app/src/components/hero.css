@@ -3,6 +3,7 @@
 
 .home__container {
     gap: 1rem;
+    height: 90vh;
 }
 
 .home__content {

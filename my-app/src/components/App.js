@@ -14,7 +14,8 @@ function App() {
     <div>
       <Router>
         <Navbar />
-          <Switch>
+
+        <Switch>
           <Route path="/" exact component={Hero} />
 
           <Route path="/about" component={About} />
@@ -23,6 +24,7 @@ function App() {
 
           <Route path="/cv" component={Cv} />
         </Switch>
+        <About />
       </Router>
     </div>
   );

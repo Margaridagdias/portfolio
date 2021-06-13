@@ -1,26 +1,18 @@
 import React from "react";
-import "../css/App.css";
-import "../css/normalize.css";
 import "../components/About.css";
 
 const About = () => {
   return (
-   
-      <section className="about-me">
-        <div className="about-card-section">
-          <h1>
-            I'm a Junior <br />
-            Front-end Developer!
-          </h1>
+    
+      <section className="about section" id="about">
+        <h2 className="section__title">
+        About me
+        </h2>
+        <span className="section__subtitle">My Introduction</span>
 
-          <h2>
-            I enjoy building clean, responsive and beautiful designs, which is
-            where my passion for media design, user experience and development
-            converge.
-          </h2>
-        </div>
+
       </section>
-   
+
   );
 };
 
