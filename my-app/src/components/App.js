@@ -4,7 +4,7 @@ import ".././css/normalize.css";
 import Hero from "./Hero";
 import About from "./About";
 import Skills from "./Skills";
-import Cv from './Cv';
+import Background from './Background';
 
 
 function App() {
@@ -13,6 +13,8 @@ function App() {
         <Navbar />
         <Hero />
         <About />
+
+        <Background />
     </div>
   );
 }

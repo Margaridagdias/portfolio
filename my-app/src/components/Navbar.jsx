@@ -14,7 +14,7 @@ const Navbar = () => {
       <nav className="navbar">
         {/* Header Logo */}
         <a href="#home" className="nav-logo">
-          <img src="/images/grayM.png" alt="/"/>
+          <img src="/images/grayM.png" alt="/" />
         </a>
 
         <div className="menu-icon" onClick={handleClick}>
@@ -40,11 +40,14 @@ const Navbar = () => {
           </li>
 
           <li className="nav-item">
-            <a href="#cv" className="nav-links" onClick={closeMobileMenu}>
-              Curriculum
+            <a
+              href="#background"
+              className="nav-links"
+              onClick={closeMobileMenu}
+            >
+              Background
             </a>
           </li>
-
         </ul>
       </nav>
     </>

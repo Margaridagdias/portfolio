@@ -15,17 +15,28 @@ const About = () => {
 
           <div className="about__info">
             <div>
-              <span className="about__info-title">MERN stack</span>
+              <span className="about__info-title">MERN</span>
+              <span className="about__info-name">stack</span>
             </div>
 
             <div>
-              <span className="about__info-title">IELTS C1</span>
+              <span className="about__info-title">ADOBE</span>
+              <span className="about__info-name">Creative Cloud</span>
+            </div>
+
+            <div>
+              <span className="about__info-title">IELTS</span>
+              <span className="about__info-name">c1</span>
             </div>
           </div>
 
           <div className="about__buttons">
-            <a href="MargaridaDiasCV.pdf" download="Margarida Dias Front-end Developer CV" className="button button--flex">
-            Download CV
+            <a
+              href="MargaridaDiasCV.pdf"
+              download="Margarida Dias Front-end Developer CV"
+              className="button button--flex"
+            >
+              Download CV
               <i class="fas fa-download"></i>
             </a>
           </div>
