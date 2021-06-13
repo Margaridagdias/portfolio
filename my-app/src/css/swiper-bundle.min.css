@@ -175,7 +175,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--swiper-navigation-color, var(--swiper-theme-color))
+    color: var(--swiper-navigation-color, var(--swiper-theme-color));
+    left: -.5rem;
+    right: -.5rem;
 }
 
 .swiper-button-next.swiper-button-disabled,
@@ -327,7 +329,7 @@ button.swiper-pagination-bullet {
 .swiper-container-vertical>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
     top: 50%;
     transform: translateY(-50%);
-    width: 8px
+    width: 8px;
 }
 
 .swiper-container-vertical>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
@@ -335,14 +337,16 @@ button.swiper-pagination-bullet {
     transition: .2s transform, .2s top
 }
 
+
 .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
-    margin: 0 4px
+    margin: 0 4px;
+   
 }
 
 .swiper-container-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
     left: 50%;
     transform: translateX(-50%);
-    white-space: nowrap
+    white-space: nowrap;
 }
 
 .swiper-container-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
