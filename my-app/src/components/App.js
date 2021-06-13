@@ -6,26 +6,13 @@ import About from "./About";
 import Skills from "./Skills";
 import Cv from './Cv';
 
-//import Footer from "./Footer";
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 
 function App() {
   return (
     <div>
-      <Router>
         <Navbar />
-
-        <Switch>
-          <Route path="/" exact component={Hero} />
-
-          <Route path="/about" component={About} />
-
-          <Route path="/skills" component={Skills} />
-
-          <Route path="/cv" component={Cv} />
-        </Switch>
+        <Hero />
         <About />
-      </Router>
     </div>
   );
 }

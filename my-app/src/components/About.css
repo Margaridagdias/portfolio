@@ -1,6 +1,15 @@
 @import '../css/App.css';
 @import '../css/normalize.css';
 
+.section__title{
+     color: var(--first-color);
+}
+
+.section__subtitle {
+     color: var(--third-color);
+     
+}
+
 
 .button {
     display: inline-block;
@@ -32,3 +41,31 @@
 .fa-download {
  margin-left: .3rem;
 }
+
+.about__description {
+    text-align: center;
+    margin-bottom: var(--mb-2-5);
+      color: var(--third-color-darker);
+}
+
+
+.about__info {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: var(--mb-2-5);
+}
+
+
+.about__info-title {
+    font-size: var(--h2-font-size);
+    font-weight: var(--font-semi-bold);
+    color: var(--third-color);
+    display: block;
+    text-align: center;
+}
+
+.about__buttons {
+    display: flex;
+    justify-content: center;
+}
+

@@ -23,7 +23,7 @@ const About = () => {
             </div>
           </div>
 
-          <div>
+          <div className="about__buttons">
             <a href="MargaridaDiasCV.pdf" download="Margarida Dias Front-end Developer CV" className="button button--flex">
             Download CV
               <i class="fas fa-download"></i>

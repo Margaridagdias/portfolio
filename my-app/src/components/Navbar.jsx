@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+
 import React, { useState } from "react";
 import "./Navbar.css";
 
@@ -13,36 +13,36 @@ const Navbar = () => {
     <>
       <nav className="navbar">
         {/* Header Logo */}
-        <Link to="/" className="nav-logo">
+        <a href="#home" className="nav-logo">
           <img src="/images/grayM.png" alt="/"/>
-        </Link>
+        </a>
 
         <div className="menu-icon" onClick={handleClick}>
           <i className={click ? "fas fa-times" : " fas fa-bars"} />
         </div>
         <ul className={click ? "nav-menu active" : "nav-menu"}>
           <li className="nav-item">
-            <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+            <a href="#home" className="nav-links" onClick={closeMobileMenu}>
               Home
-            </Link>
+            </a>
           </li>
 
           <li className="nav-item">
-            <Link to="/about" className="nav-links" onClick={closeMobileMenu}>
+            <a href="#about" className="nav-links" onClick={closeMobileMenu}>
               About
-            </Link>
+            </a>
           </li>
 
           <li className="nav-item">
-            <Link to="/skills" className="nav-links" onClick={closeMobileMenu}>
+            <a href="#skills" className="nav-links" onClick={closeMobileMenu}>
               Skills
-            </Link>
+            </a>
           </li>
 
           <li className="nav-item">
-            <Link to="/cv" className="nav-links" onClick={closeMobileMenu}>
+            <a href="#cv" className="nav-links" onClick={closeMobileMenu}>
               Curriculum
-            </Link>
+            </a>
           </li>
 
         </ul>
