@@ -9,3 +9,7 @@
 .button-icon-1 {
     font-size: .5rem;
 }
+
+.a-links {
+    color: var(--third-color);
+}
