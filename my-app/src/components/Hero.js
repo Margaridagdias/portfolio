@@ -34,7 +34,7 @@ const Hero = () => {
                     className="home__blob-img"
                     x="12"
                     y="-40"
-                    xlinkHref="/images/margarida.png"
+                    xlinkHref="/images/profile-pic.png"
                   />
                 </g>
               </svg>

@@ -24,11 +24,11 @@ const About = () => {
           </div>
 
           <div>
-            <a href="#resume" className="button button--flex">
-              DOWNLOAD CV
+            <a href="MargaridaDiasCV.pdf" download="Margarida Dias Front-end Developer CV" className="button button--flex">
+            Download CV
+              <i class="fas fa-download"></i>
             </a>
           </div>
-          
         </div>
       </div>
     </section>
