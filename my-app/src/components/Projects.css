@@ -1,2 +1,11 @@
 @import '../css/App.css';
 @import '../css/normalize.css';
+
+.fa-arrow-right {
+    margin-left: 0.3rem;
+   
+}
+
+.button-icon-1 {
+    font-size: .5rem;
+}
