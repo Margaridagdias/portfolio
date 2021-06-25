@@ -12,7 +12,7 @@ const Footer = () => {
                   &#169 2021 Created by{" "}
                   <a href="https://www.linkedin.com/in/margaridagdias/">
                     {" "}
-                    Margarida Diaas
+                    Margarida Dias
                   </a>
                 </span>
               </nav>
