@@ -35,7 +35,7 @@ const Navbar = () => {
 
           <li className="nav-item">
             <a href="#skills" className="nav-links" onClick={closeMobileMenu}>
-              Skillss
+              Skills
             </a>
           </li>
 
