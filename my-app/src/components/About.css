@@ -1,6 +1,13 @@
 @import '../css/App.css';
 @import '../css/normalize.css';
 
+
+.about {
+    margin-top: 8rem;
+    margin-bottom: 10rem;
+
+}
+
 .section__title{
      color: var(--first-color);
 }
@@ -23,8 +30,7 @@
 }
 
 .button:hover {
-    background-color: var(--third-color);
-    color: var(--first-color);
+   background-color: var(--button-hover-color);
 }
 
 .button__icon {

@@ -42,10 +42,6 @@ const About = () => {
           </div>
         </div>
       </div>
-
-     <a href="#" className="scrollup" id="scroll-up">
-        <i class="fas fa-arrow-up"></i>
-      </a>
     </section>
   );
 };

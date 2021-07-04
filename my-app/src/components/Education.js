@@ -1,20 +1,15 @@
 import React from 'react';
-import "../components/Background.css";
+import "../components/Education.css"
 
 
-const Background = () => {
+const Education = () => {
 
     return (
         <section className="qualification section">
-            <h2 className="section__title">Qualification</h2>
+            <h2 className="section__title">Education</h2>
             <span className="section__subtitle">My journey</span>
             <div className="qualification__container">
                 <div className="qualification__tabs">
-                    <div className="qualification__button button--flex" id="education">
-                        <i class="fas fa-graduation-cap qualification__icon">
-                            Education
-                        </i>
-                    </div>
                 </div>
 
                 <div className="qualification__sections">
@@ -23,7 +18,7 @@ const Background = () => {
                               
                                  {/* qualification 1 */}
                        <div className="qualification__data">
-                           <div className="qualification__moving">
+                           <div className="moving1">
                                <h3 className="qualification__title">Communication and Media</h3>
                                <span className="qualification__subtitle">Lisbon - Universidade Lusíada de Lisboa</span>
                             <div className="qualification__calendar">
@@ -62,7 +57,7 @@ const Background = () => {
                        <div className="qualification__data">
 
                       
-                            <div className="qualification__moving">
+                         <div className="moving1">
                                <h3 className="qualification__title">UX Research and Qualitative Analysis</h3>
                                <span className="qualification__subtitle">remote - Udemy</span>
                             <div className="qualification__calendar">
@@ -102,4 +97,4 @@ const Background = () => {
     )
 }
 
-export default Background
+export default Education

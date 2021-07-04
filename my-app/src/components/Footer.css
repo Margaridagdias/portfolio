@@ -5,7 +5,7 @@
 }
 
 .footer__container {
-    row-gap: 3.5rem;
+   text-align: center;
 }
 
 .footer__bg {
@@ -24,8 +24,12 @@
 
 .footer__links {
     display: flex;
-    flex-direction: column;
-    row-gap: 1.5rem;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer__link {
+    margin-right: 2rem;
 }
 
 .footer__link:hover {
@@ -35,6 +39,7 @@
 .footer__social {
     font-size: 1.25rem;
     margin-right: var(--mb-1-5);
+    color: var(--third-darkest-color);
 }
 
 .footer__social:hover {

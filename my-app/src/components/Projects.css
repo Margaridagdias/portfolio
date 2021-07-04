@@ -27,6 +27,7 @@
     width: 275px;
     border-radius: .5rem;
     justify-self: center;
+    margin-bottom: 0;
 }
 
 .projects__title {
@@ -35,8 +36,12 @@
     color: var(--third-color);
 }
 
+.projects__title:hover {
+    color: var(--second-color);
+}
+
 .projects__description {
-    margin-bottom: var(--mb-0-75);
+    margin-bottom: 3rem;
     color: var(--third-color-darker);
 }
 
@@ -44,5 +49,14 @@
     transform: translateX(.25rem);
 }
 
+.projects__data {
+    text-align: center;
+}
 
+.section__subtitle {
+    margin-bottom: 2rem;
+}
 
+.projects__button {
+    margin-bottom: 2rem;
+}

@@ -28,8 +28,9 @@
 } 
 
 .home__blob {
-    width: 200px;
+    width: 250px;
     fill: var(--overall-color);
+    margin-left: 42%;
 }
 
 .home__blob-img {
@@ -37,7 +38,7 @@
 } 
 
 .home__data {
-    grid-column: 1/3;
+    text-align: center;
 }
 
 .home__title {
@@ -62,7 +63,7 @@
 
 .scrolldown {
     position: absolute;
-    bottom: -60px;
+    bottom: -90px;
     left: 50%;
     width: 30px;
     height: 30px;
