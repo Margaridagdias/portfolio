@@ -7,7 +7,7 @@ const About = () => {
     <section className="about section" id="about">
       <h2 className="section__title">About me</h2>
       <span className="section__subtitle">My Introduction</span>
-      <div className="about__container container grid">
+      <div className="about__container container">
         <div className="about__data">
           <p className="about__description">
             Hi! I'm a UX Researcher with a background in User Testing, Web Development and Communication & Media.

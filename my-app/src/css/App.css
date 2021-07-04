@@ -302,14 +302,137 @@ img {
         }
 
 
+        .home__container {
+            row-gap: 5rem;
+        }
 
+        .home__content {
+            padding-top: 5.5rem;
+            column-gap: 2rem;
+        }
+
+        .home__blob {
+            width: 270px;
+        }
+
+        .about__container {
+            column-gap: 5rem;
+        }
+
+        .about__img {
+            width: 350px;
+        }
+
+        .about__description {
+            text-align: initial;
+        }
+
+        .about__info {
+            justify-content: space-between;
+        }
+
+        .about__buttons {
+            justify-content: initial;
+        }
+
+        .qualification__tabs {
+            justify-content: center;
+        }
+
+        .qualification__button {
+            margin: 0 var(--mb-1)
+        }
+
+        .qualification__sections {
+            grid-template-columns: .5fr;
+        }
+
+        .projects_img {
+            width: 320px;
+        }
+
+        .projects__content {
+            align-items: center;
+        }
+
+        .projects {
+            text-align: initial;
+        }
+
+        .projects__container {
+            border-radius: 1rem;
+            padding: 3rem 2.5rem 0;
+            
+            column-gap: 3rem;
+        }
+
+        .projects__data {
+            padding-top: .8rem;
+        }
+
+        .footer__container {
+            grid-template-columns: repeat(3, 1fr);
+        }
+
+        .footer__bg {
+            padding: 3rem 0 3.5rem;
+        }
+
+        .footer__links {
+            flex-direction: row;
+            column-gap: 2rem;
+        }
+
+        .footer__socials {
+            justify-self: flex-end;
+        }
+
+        .footer__copy {
+            margin-top: 4.5rem;
+        }
 
     }
 
+    /* For large devices */
+
+    @media screen and (min-width: 1024px) {
+
+        .header,
+        .main,
+        .footer__container {
+            padding: 0;
+        }
+
+        .home__blob {
+            width: 320px;
+        }
+
+        .home__social {
+            transform: translateX(-6rem);
+        }
 
 
+        .projects__container {
+            justify-content: center;
+        }
 
+
+        .swiper-portfolio-icon {
+            font-size: 3.5rem;
+        }
+
+        .swiper-button-prev {
+            left: -3.5rem
+        }
+
+        .swiper-button-next {
+            right: -3.5rem
+        }
+
+        .swiper-container-horizontal > swiper-pagination-bullets {
+            bottom: -4.5rem;
+        }
+
+    }
 
 }
-
-/* For large devices */

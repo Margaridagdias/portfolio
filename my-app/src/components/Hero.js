@@ -5,8 +5,8 @@ const Hero = () => {
   return (
     <main>
       <section className="home-section" id="home">
-        <div className="home__container container grid">
-          <div className="home__content grid">
+        <div className="home__container container">
+          <div className="home__content">
             <div className="home__img">
               <svg
                 className="home__blob"

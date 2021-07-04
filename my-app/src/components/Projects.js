@@ -85,7 +85,7 @@ const Projects = () => {
 
             <SwiperSlide>
               {/* Project 3 */}
-              <div className="projects__content grid">
+              <div className="projects__content">
                 <img
                   src="/images/birthdays__img.png"
                   alt=""
@@ -113,7 +113,7 @@ const Projects = () => {
 
             <SwiperSlide>
               {/* Project 4 */}
-              <div className="projects__content grid">
+              <div className="projects__content">
                 <img
                   src="/images/5SecondRule__img.png"
                   alt=""
