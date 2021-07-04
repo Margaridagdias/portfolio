@@ -9,31 +9,30 @@ const About = () => {
       <div className="about__container container grid">
         <div className="about__data">
           <p className="about__description">
-            Hi! I'm a Front-end developer with a background in Web Development,
-            Design & UX Testing and Digital production & communication.
+            Hi! I'm a UX Researcher with a background in User Testing, Web Development and Communication & Media.
           </p>
 
           <div className="about__info">
             <div>
-              <span className="about__info-title">MERN</span>
-              <span className="about__info-name">stack</span>
+              <span className="about__info-title">UX</span>
+              <span className="about__info-name">Research</span>
             </div>
 
             <div>
-              <span className="about__info-title">ADOBE</span>
-              <span className="about__info-name">Creative Cloud</span>
+              <span className="about__info-title">UI</span>
+              <span className="about__info-name">Design</span>
             </div>
 
             <div>
-              <span className="about__info-title">IELTS</span>
-              <span className="about__info-name">c1</span>
+              <span className="about__info-title">Frontend</span>
+              <span className="about__info-name">Development</span>
             </div>
           </div>
 
           <div className="about__buttons">
             <a
               href="MargaridaDiasCV.pdf"
-              download="Margarida Dias Front-end Developer CV"
+              download="Margarida Dias UX Researcher CV"
               className="button button--flex"
             >
               Download CV
