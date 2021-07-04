@@ -252,7 +252,7 @@ img {
     }
 
     .home__data {
-        grid-column: initial;
+        grid-column: auto;
     }
 
     .home__img {
@@ -266,11 +266,6 @@ img {
         justify-content: center;
     }
 
-    .projects__container,
-    .projects__content,
-    .footer__container {
-        grid-template-columns: repeat(2, 1fr);
-    }
 
     @media screen and (min-width: 768px) {
         .container {
@@ -315,16 +310,9 @@ img {
             width: 270px;
         }
 
-        .about__container {
-            column-gap: 5rem;
-        }
-
-        .about__img {
-            width: 350px;
-        }
 
         .about__description {
-            text-align: initial;
+            justify-content: center;
         }
 
         .about__info {
@@ -346,6 +334,7 @@ img {
         .qualification__sections {
             grid-template-columns: .5fr;
         }
+
 
         .projects_img {
             width: 320px;
