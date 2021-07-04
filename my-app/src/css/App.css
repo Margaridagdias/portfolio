@@ -2,25 +2,23 @@
 
 /* Colors */
 :root {
---hue-color:250;
+    --hue-color: 250;
 
---overall-color:#debce2;
---body-color: hsl(var(--hue-color), 4%, 17%);
---first-color: #F9FAFB;
---second-color:#F9FAFB;
---third-color:#d4d4d4;
---third-color-darker:#9e9e9e;
+    --overall-color: #debce2;
+    --body-color: hsl(var(--hue-color), 4%, 17%);
+    --first-color: #F9FAFB;
+    --second-color: #F9FAFB;
+    --third-color: #d4d4d4;
+    --third-color-darker: #9e9e9e;
+    --darker-body-color: #242222;
 
+    /* Fonts and Typography */
 
---darker-body-color:#242222;
+    --body-font: 'Josefin Sans', sans-serif;
+    --title-font: 'Abril Fatface';
 
-/* Fonts and Typography */
-
---body-font: 'Josefin Sans', sans-serif;
---title-font: 'Abril Fatface';
-
-/* Font sizes */
-/* 0.5rem = 8px, 1rem = 16px, 1.5rem = 24px */
+    /* Font sizes */
+    /* 0.5rem = 8px, 1rem = 16px, 1.5rem = 24px */
 
     --big-font-size: 2rem;
     --h1-font-size: 1.5rem;
@@ -47,30 +45,30 @@
 
     /*========== z index ==========*/
     --z-tooltip: 10;
-    --z-fixed: 100; 
+    --z-fixed: 100;
     --z-modal: 1000;
+}
+
+/* Font size for large devices */
+@media screen and (min-width: 968px) {
+    :root {
+        --big-font-size: 3rem;
+        --h1-font-size: 2.25rem;
+        --h2-font-size: 1.5rem;
+        --h3-font-size: 1.25rem;
+        --normal-font-size: 1rem;
+        --small-font-size: 0.875rem;
+        --smaller-font-size: .813rem;
     }
+}
 
-    /* Font size for large devices */
-    @media screen and (min-width: 968px) {
-        :root {
-            --big-font-size: 3rem;
-            --h1-font-size: 2.25rem;
-            --h2-font-size: 1.5rem;
-            --h3-font-size: 1.25rem;
-            --normal-font-size: 1rem;
-            --small-font-size: 0.875rem;
-            --smaller-font-size: .813rem;
-        }
-    }
-
-    /*========== Variables Dark theme ==========*/
+/*========== Variables Dark theme ==========*/
 
 
-    /*========== Button Dark/Light ==========*/
+/*========== Button Dark/Light ==========*/
 
 
-    /*==================== BASE ====================*/
+/*==================== BASE ====================*/
 
 
 * {
@@ -91,7 +89,10 @@ body {
     color: var(--text-color);
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
     color: var(--title-color);
     font-weight: var(--font-semi-bold);
 }
@@ -101,7 +102,7 @@ ul {
     list-style: none;
 }
 
-a { 
+a {
     text-decoration: none;
 }
 
@@ -109,97 +110,206 @@ img {
     max-width: 100%;
     height: auto;
 }
-    /*==================== REUSABLE CSS CLASSES ====================*/
 
-    .section {
-        padding: 2rem 0 4rem;
-    }
+/*==================== REUSABLE CSS CLASSES ====================*/
 
-    .section__title {
-        font-size: var(--h1-font-size)
-    }
+.section {
+    padding: 2rem 0 4rem;
+}
 
-    .section__subtitle {
-        display: block;
-        font-size: var(--small-font-size);
-        margin-bottom: var(--mb-3);
-    }
+.section__title {
+    font-size: var(--h1-font-size)
+}
 
-.section__title, .section__subtitle {
+.section__subtitle {
+    display: block;
+    font-size: var(--small-font-size);
+    margin-bottom: var(--mb-3);
+}
+
+.section__title,
+.section__subtitle {
     text-align: center;
 }
 
-    /*==================== LAYOUT ====================*/
+/*==================== LAYOUT ====================*/
 
 .container {
     max-width: 768px;
     margin-left: var(--mb-1-5);
-     margin-right:var(--mb-1-5);
+    margin-right: var(--mb-1-5);
 }
 
 .grid {
     display: grid;
     gap: 1.5rem;
 }
-    /*==================== NAV ====================*/
+
+/*==================== NAV ====================*/
 
 
-    /* show menu */
+/* show menu */
 
 
-    /* Active link */
+/* Active link */
 
 
-    /* Change background header */
+/* Change background header */
 
-    /*==================== BUTTONS ====================*/
-    
-    
-
-    /*==================== ABOUT ====================*/
-
-
-    /*==================== SKILLS ====================*/
-
-
-    /*==================== QUALIFICATION ====================*/
-
-
-    /*==================== SERVICES ====================*/
-
-
-    /* Active Modal */
-
-
-    /*==================== PORTFOLIO ====================*/
-
-
-    /*==================== PROJECT IN MIND ====================*/
-
-
-    /*==================== TESTIMONIAL ====================*/
+/*==================== BUTTONS ====================*/
 
 
 
-
-    /*==================== FOOTER ====================*/
-
-
-    /*========== SCROLL UP ==========*/
+/*==================== ABOUT ====================*/
 
 
-    /* Show scroll */
+/*==================== SKILLS ====================*/
 
 
-    /*========== SCROLL BAR ==========*/
+/*==================== QUALIFICATION ====================*/
 
 
-    /*==================== MEDIA QUERIES ====================*/
-    /* For small devices */
+/*==================== SERVICES ====================*/
 
 
-    /* For medium devices */
+/* Active Modal */
 
 
-    /* For large devices */
+/*==================== PORTFOLIO ====================*/
 
+
+/*==================== PROJECT IN MIND ====================*/
+
+
+/*==================== TESTIMONIAL ====================*/
+
+
+
+
+/*==================== FOOTER ====================*/
+
+
+/*========== SCROLL UP ==========*/
+.scrollup {
+    position: fixed;
+    right: 1rem;
+    bottom: -20%;
+    background-color: var(--overall-color);
+    opacity: .8;
+    padding: .4rem;
+    border-radius: .4rem;
+    z-index: var(--z-tooltip);
+    transition: .4s;
+}
+
+.scrollup:hover {
+    background-color: var(--second-color);
+}
+
+.scrollup__icon {
+    font-size: 1.5rem;
+    color: #FFF;
+}
+
+/* Show scroll */
+
+
+/*========== SCROLL BAR ==========*/
+
+
+/*==================== MEDIA QUERIES ====================*/
+/* For small devices */
+@media screen and (max-width: 350px) {
+    .container {
+        margin-left: var(--mb-1);
+        margin-right: var(--mb-1);
+    }
+
+    .home__content {
+        grid-template-columns: .25fr 3fr;
+    }
+
+    .home__blob {
+        width: 180px;
+    }
+
+    .qualification__data {
+        gap: .5rem;
+    }
+
+    .project_img {
+        width: 200px;
+    }
+
+}
+
+
+/* For medium devices */
+@media screen and (max-width: 568px) {
+
+    .home__content {
+        grid-template-columns: max-content 1fr 1fr;
+    }
+
+    .home__data {
+        grid-column: initial;
+    }
+
+    .home__img {
+        order: 1;
+        justify-self: center;
+    }
+
+    .qualification__sections {
+        display: grid;
+        grid-template-columns: .6fr;
+        justify-content: center;
+    }
+
+    .projects__container,
+    .projects__content,
+    .footer__container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media screen and (min-width: 768px) {
+        .container {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        .section {
+            padding: 6rem 0 2rem;
+        }
+
+        .section__subtitle {
+            margin-bottom: 4rem;
+        }
+
+        .header {
+            top: 0;
+            bottom: initial;
+        }
+
+        .header,
+        .main,
+        .footer__container {
+            padding: 0 1rem;
+        }
+
+
+
+
+    }
+
+
+
+
+
+}
+
+/* For large devices */

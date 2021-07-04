@@ -2,6 +2,7 @@ import React from "react";
 import "../components/About.css";
 
 const About = () => {
+
   return (
     <section className="about section" id="about">
       <h2 className="section__title">About me</h2>
@@ -41,6 +42,10 @@ const About = () => {
           </div>
         </div>
       </div>
+
+     <a href="#" className="scrollup" id="scroll-up">
+        <i class="fas fa-arrow-up"></i>
+      </a>
     </section>
   );
 };
